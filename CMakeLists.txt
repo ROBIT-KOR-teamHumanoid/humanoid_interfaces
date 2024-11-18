@@ -28,6 +28,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Tune2IkMsg.msg"
   "msg/ZmpMsg.msg"
 
+  "msg/Robocupvision25.msg"
+  "msg/Robocupvision25feature.msg"
+
+  "msg/Gamecontroldata.msg"
+  "msg/Gamecontrolreturndata.msg"
+  "msg/Robocupcontroller.msg"
+
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
 )
