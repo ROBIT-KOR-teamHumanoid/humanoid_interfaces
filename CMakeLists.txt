@@ -30,10 +30,38 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   "msg/Robocupvision25.msg"
   "msg/Robocupvision25feature.msg"
+  "msg/Master2vision25.msg"
+
+  "msg/RobocupVision.msg"
+  "msg/RobocupVisionFeature.msg"
+  "msg/Master2RobocupVision.msg"
+
+  "msg/Robocuplocalization25.msg"
+  "msg/Master2localization25.msg"
+
+  "msg/Motionnum.msg"
+  "msg/Motionend.msg"
+
+  "msg/Master2udp25.msg"
+  "msg/Localv2.msg"
 
   "msg/Gamecontroldata.msg"
   "msg/Gamecontrolreturndata.msg"
   "msg/Robocupcontroller.msg"
+
+  "msg/Udp2master.msg"
+  "msg/Master2udp.msg"
+
+  "msg/PanTiltMsg.msg"
+  "msg/Vision2Ui.msg"
+
+  "msg/Point.msg"
+  "msg/Local2Ui.msg"
+  "msg/RobotPoint.msg"
+  "msg/Master2Localization25.msg"
+  "msg/Localv2Msg.msg"
+  "msg/RobocupLocalization25.msg"
+  "msg/GameControlData.msg"
 
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
