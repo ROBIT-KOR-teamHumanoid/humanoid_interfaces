@@ -32,49 +32,33 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Robocupvision25feature.msg"
   "msg/Master2vision25.msg"
 
-  "msg/RobocupVision.msg"
-  "msg/RobocupVisionFeature.msg"
-  "msg/Master2RobocupVision.msg"
-
   "msg/Robocuplocalization25.msg"
   "msg/Master2localization25.msg"
 
   "msg/Motionnum.msg"
   "msg/Motionend.msg"
 
-  "msg/Master2udp25.msg"
-  "msg/Localv2.msg"
+  "msg/Master2udp.msg"
+  "msg/Udp2master.msg"
 
   "msg/Gamecontroldata.msg"
   "msg/Gamecontrolreturndata.msg"
   "msg/Robocupcontroller.msg"
 
-  "msg/Udp2master.msg"
-  "msg/Master2udp.msg"
-
-  "msg/PanTiltMsg.msg"
-  "msg/Vision2Ui.msg"
-
-  "msg/Point.msg"
-  "msg/Local2Ui.msg"
-  "msg/RobotPoint.msg"
-  "msg/Master2Localization25.msg"
-  "msg/Localv2Msg.msg"
-  "msg/RobocupLocalization25.msg"
-  "msg/GameControlData.msg"
-
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
 )
+
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
-
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
+
   # the following line skips the linter which checks for copyrights
   # comment the line when a copyright and license is added to all source files
   set(ament_cmake_copyright_FOUND TRUE)
+
   # the following line skips cpplint (only works in a git repo)
   # comment the line when this package is in a git repo and when
   # a copyright and license is added to all source files
