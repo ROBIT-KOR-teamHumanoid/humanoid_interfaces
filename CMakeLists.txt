@@ -21,6 +21,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/IkPatternMsg.msg"
 
   "msg/CPWalk.msg"
+  "msg/LCMsgs.msg"
 
   "msg/ImuMsg.msg"
   "msg/Master2IkMsg.msg"
