@@ -46,6 +46,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Gamecontrolreturndata.msg"
   "msg/Robocupcontroller.msg"
 
+  "msg/MotionOperator.msg"
+
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
 )
