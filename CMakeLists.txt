@@ -47,6 +47,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Robocupcontroller.msg"
 
   "msg/MotionOperator.msg"
+  
+  "msg/Pidtuning.msg"
 
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
