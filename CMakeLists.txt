@@ -20,31 +20,19 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/IkLTCMsg.msg"
   "msg/IkPatternMsg.msg"
 
-  "msg/CPWalk.msg"
-  "msg/LCMsgs.msg"
-
   "msg/ImuMsg.msg"
   "msg/Master2IkMsg.msg"
   "msg/MotorMsg.msg"
   "msg/Tune2IkMsg.msg"
   "msg/ZmpMsg.msg"
 
-  "msg/Robocupvision25.msg"
-  "msg/Robocupvision25feature.msg"
-  "msg/Master2vision25.msg"
+  "msg/Master2vision.msg"
 
-  "msg/Robocuplocalization25.msg"
-  "msg/Master2localization25.msg"
-
-  "msg/Motionnum.msg"
-  "msg/Motionend.msg"
+  "msg/Master2localization.msg"
 
   "msg/Master2udp.msg"
   "msg/Udp2master.msg"
 
-  "msg/Gamecontroldata.msg"
-  "msg/Gamecontrolreturndata.msg"
-  "msg/Robocupcontroller.msg"
 
   "msg/MotionOperator.msg"
   
