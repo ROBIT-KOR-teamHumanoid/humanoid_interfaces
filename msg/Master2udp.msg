@@ -7,3 +7,6 @@ int64 balldist
 int64 ballcoorx
 int64 ballcoory
 int64 myteam
+
+float32 blinded_robot_x
+float32 blinded_robot_y

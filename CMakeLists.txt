@@ -37,6 +37,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotionOperator.msg"
   
   "msg/Pidtuning.msg"
+  "msg/VlmGameflow.msg"
 
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs

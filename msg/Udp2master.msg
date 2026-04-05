@@ -10,3 +10,6 @@ int64 bally
 int64 balldist
 int64 balltheta
 
+float32 blinded_robot_x
+float32 blinded_robot_y
+
