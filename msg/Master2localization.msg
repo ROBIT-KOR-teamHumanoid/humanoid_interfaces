@@ -4,4 +4,8 @@ int64 targetx
 int64 targety
 int64 robotallowanceerror
 int64 robotcaliradius
+float32 bestposition_x
+float32 bestposition_y
+float32 defendposition_x
+float32 defendposition_y
 
