@@ -1,5 +1,6 @@
 int64 robotnum
 int64 robotstate
+int64 robotposition
 int64 robotcoorx
 int64 robotcoory
 int64 robotimuyaw

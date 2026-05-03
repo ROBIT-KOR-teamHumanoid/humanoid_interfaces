@@ -1,5 +1,6 @@
 int64 robotnum
 int64 robotcase
+int64 robotposition
 
 int64 localx
 int64 localy
