@@ -4,9 +4,11 @@ int64 robotposition
 int64 robotcoorx
 int64 robotcoory
 int64 robotimuyaw
+
 int64 balldist
 int64 ballcoorx
 int64 ballcoory
+
 int64 myteam
 
 float32 blinded_robot_x

@@ -22,3 +22,5 @@ float32 z_vel
 float32 x_pos
 float32 y_pos
 float32 z_pos
+
+bool reset_desire_yaw
