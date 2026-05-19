@@ -8,4 +8,5 @@ float32 bestposition_x
 float32 bestposition_y
 float32 defendposition_x
 float32 defendposition_y
+string move2ball_phase
 
